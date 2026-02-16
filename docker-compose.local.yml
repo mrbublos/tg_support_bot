@@ -7,7 +7,7 @@ services:
     volumes:
       - ./shared:/app/shared
     env_file:
-      - /home/ubuntu/src/tg_support_bot/.env
+      - /Users/ip/IdeaProjects/tg_support_bot/.env.local
     restart: unless-stopped
     user: appuser
     # Resource limits for production
