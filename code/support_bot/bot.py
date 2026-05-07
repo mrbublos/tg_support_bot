@@ -45,16 +45,20 @@ class SupportBot(Bot):
         """
         Read a bot token and a config with other vars
         """
+        messages = load_toml(BASE_DIR / 'support_bot' / 'messages.toml') or {}
+        default_messages = messages.get('default', {})
         cfg = {
             'name': self.name,
-            'hello_msg': 'Hello! Write your message',
-            'first_reply': (
-                "We have received your message. We'll get back to you as soon as we can. "
-                "Please don't delete the chat so we can send you a reply."
-            ),
+            'hello_msg': default_messages['hello_msg'],
+            'first_reply': default_messages['first_reply'],
             'db_url': f'sqlite+aiosqlite:///{self.botdir}/db.sqlite',
             'db_engine': 'aiosqlite',
-            'hello_ps': '\n\n<i>The bot is created by @moladzbel</i>',
+            'hello_ps': '',
+            'messages_by_locale': {
+                locale.lower().replace('-', '_'): text
+                for locale, text in messages.items()
+                if locale != 'default'
+            },
         }
         for var in self.cfg_vars:
             envvar = os.getenv(f'{self.name}_{var.upper()}')
@@ -74,6 +78,8 @@ class SupportBot(Bot):
                     raise ValueError(f'{var} must be between 1 and 47 (hours)')
 
         cfg['hello_msg'] += cfg['hello_ps']
+        for messages in cfg['messages_by_locale'].values():
+            messages['hello_msg'] += cfg['hello_ps']
         return os.getenv(f'{self.name}_TOKEN'), cfg
 
     def _configure_db(self) -> None:

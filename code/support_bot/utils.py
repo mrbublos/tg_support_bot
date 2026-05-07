@@ -6,6 +6,32 @@ import aiogram.types as agtypes
 from .const import MsgType
 
 
+def get_user_locale(user: agtypes.User | agtypes.Chat | None) -> str | None:
+    """
+    Return Telegram user's locale normalized for config lookup.
+    """
+    if not user:
+        return None
+
+    locale = getattr(user, 'language_code', None)
+    return locale.lower().replace('-', '_') if locale else None
+
+
+def localized_cfg(bot, key: str, user: agtypes.User | agtypes.Chat | None) -> str:
+    """
+    Read a config value localized by Telegram user's locale, with fallback.
+    """
+    locale = get_user_locale(user)
+    messages = bot.cfg.get('messages_by_locale', {})
+
+    if locale:
+        for candidate in (locale, locale.split('_', maxsplit=1)[0]):
+            if candidate in messages and key in messages[candidate]:
+                return messages[candidate][key]
+
+    return bot.cfg[key]
+
+
 async def make_user_info(user: agtypes.User, bot=None, tguser=None) -> str:
     """
     Text representation of a user

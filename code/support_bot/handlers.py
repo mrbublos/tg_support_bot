@@ -11,7 +11,7 @@ from .filters import (
     GroupChatCreatedFilter, NewChatMembersFilter, PrivateChatFilter,
     ReplyToBotInGroupForwardedFilter,
 )
-from .utils import make_user_info, save_for_destruction
+from .utils import localized_cfg, make_user_info, save_for_destruction
 
 
 @log
@@ -20,8 +20,10 @@ async def cmd_start(msg: agtypes.Message, *args, **kwargs) -> None:
     """
     Reply to /start
     """
-    bot, user, db = msg.bot, msg.chat, msg.bot.db
-    sentmsg = await send_new_msg_with_keyboard(bot, user.id, bot.cfg['hello_msg'], bot.menu)
+    bot, db = msg.bot, msg.bot.db
+    user = msg.from_user or msg.chat
+    hello_msg = localized_cfg(bot, 'hello_msg', user)
+    sentmsg = await send_new_msg_with_keyboard(bot, msg.chat.id, hello_msg, bot.menu)
 
     new_user = False
     if not await db.tguser.get(user=user):  # save user if it's new
@@ -51,7 +53,7 @@ async def _new_topic(msg: agtypes.Message, tguser=None) -> int:
     Create a new topic for the user
     """
     group_id = msg.bot.cfg['admin_group_id']
-    user, bot = msg.chat, msg.bot
+    user, bot = msg.from_user or msg.chat, msg.bot
 
     response = await bot.create_forum_topic(group_id, user.full_name)
     thread_id = response.message_thread_id
@@ -92,7 +94,8 @@ async def user_message(msg: agtypes.Message, *args, **kwargs) -> None:
     then forward user message to internal admin group
     """
     group_id = msg.bot.cfg['admin_group_id']
-    bot, user, db = msg.bot, msg.chat, msg.bot.db
+    bot, db = msg.bot, msg.bot.db
+    user = msg.from_user or msg.chat
 
     if tguser := await db.tguser.get(user=user):
         if thread_id := tguser.thread_id:
@@ -109,15 +112,17 @@ async def user_message(msg: agtypes.Message, *args, **kwargs) -> None:
         if tguser.first_replied:
             await db.tguser.update(user.id, user_msg=msg, thread_id=thread_id)
         else:
-            if bot.cfg['first_reply']:
-                sentmsg = await bot.send_message(user.id, bot.cfg['first_reply'])
+            first_reply = localized_cfg(bot, 'first_reply', user)
+            if first_reply:
+                sentmsg = await bot.send_message(user.id, first_reply)
                 await save_for_destruction(sentmsg, bot)
             await db.tguser.update(user.id, user_msg=msg, thread_id=thread_id, first_replied=True)
 
     else:
         thread_id = await _new_topic(msg)
-        if bot.cfg['first_reply']:
-            sentmsg = await bot.send_message(user.id, bot.cfg['first_reply'])
+        first_reply = localized_cfg(bot, 'first_reply', user)
+        if first_reply:
+            sentmsg = await bot.send_message(user.id, first_reply)
             await save_for_destruction(sentmsg, bot)
         tguser = await db.tguser.add(user, msg, thread_id, first_replied=True)
         await msg.forward(group_id, message_thread_id=thread_id)

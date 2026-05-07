@@ -22,6 +22,8 @@ Example (a line in `.env` file):
 
 `MYBOT_HELLO_MSG=Hi!\nThis is a support bot of <b>Title</b> channel.`
 
+Locale-specific defaults for `{BOTNAME}_HELLO_MSG` and `{BOTNAME}_FIRST_REPLY` are stored in `code/support_bot/messages.toml`. Locale comes from Telegram's user language code and is case-insensitive. If a region-specific locale is received, for example `pt_BR`, the bot falls back to `pt`, then to the default configured message.
+
 ## Setting up bot menu
 
 To setup a user menu for your bot, create a file `shared/{BOTNAME}/menu.toml`. See example of it's content in `menu.example.toml` file. There are 5 button modes currently supported:
