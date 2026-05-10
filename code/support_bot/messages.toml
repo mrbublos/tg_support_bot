@@ -1,139 +1,139 @@
 [default]
-hello_msg = "Hello! Write your message"
+hello_msg = "Hello! Please send us your question, feedback, or problem description — we'll try to resolve it soon."
 first_reply = "We have received your message. We'll get back to you as soon as we can. Please don't delete the chat so we can send you a reply."
 
 [ar]
-hello_msg = "مرحبًا! اكتب رسالتك"
+hello_msg = "مرحبًا! أرسل سؤالك أو ملاحظتك أو وصف المشكلة — سنحاول حلها قريبًا."
 first_reply = "لقد استلمنا رسالتك. سنعود إليك في أقرب وقت ممكن. من فضلك لا تحذف المحادثة حتى نتمكن من إرسال الرد إليك."
 
 [be]
-hello_msg = "Вітаем! Напішыце ваша паведамленне"
+hello_msg = "Вітаем! Напішыце ваша пытанне, водгук або апісанне праблемы — пастараемся вырашыць яе ў бліжэйшы час."
 first_reply = "Мы атрымалі ваша паведамленне. Мы адкажам вам як мага хутчэй. Калі ласка, не выдаляйце чат, каб мы маглі даслаць вам адказ."
 
 [bg]
-hello_msg = "Здравейте! Напишете съобщението си"
+hello_msg = "Здравейте! Изпратете въпрос, обратна връзка или описание на проблема — ще се постараем да го решим скоро."
 first_reply = "Получихме вашето съобщение. Ще се свържем с вас възможно най-скоро. Моля, не изтривайте чата, за да можем да ви изпратим отговор."
 
 [bs]
-hello_msg = "Zdravo! Napišite svoju poruku"
+hello_msg = "Zdravo! Pošaljite pitanje, povratnu informaciju ili opis problema — potrudit ćemo se to uskoro riješiti."
 first_reply = "Primili smo vašu poruku. Javit ćemo vam se što je prije moguće. Molimo vas da ne brišete chat kako bismo vam mogli poslati odgovor."
 
 [cs]
-hello_msg = "Dobrý den! Napište svou zprávu"
+hello_msg = "Dobrý den! Pošlete nám svůj dotaz, zpětnou vazbu nebo popis problému — pokusíme se ho brzy vyřešit."
 first_reply = "Obdrželi jsme vaši zprávu. Ozveme se vám co nejdříve. Prosím nemažte chat, abychom vám mohli poslat odpověď."
 
 [de]
-hello_msg = "Hallo! Schreibe deine Nachricht"
+hello_msg = "Hallo! Sende uns deine Frage, dein Feedback oder eine Problembeschreibung — wir versuchen, es bald zu lösen."
 first_reply = "Wir haben deine Nachricht erhalten. Wir melden uns so schnell wie möglich bei dir. Bitte lösche den Chat nicht, damit wir dir antworten können."
 
 [da]
-hello_msg = "Hej! Skriv din besked"
+hello_msg = "Hej! Send os dit spørgsmål, feedback eller en beskrivelse af problemet — vi forsøger at løse det snart."
 first_reply = "Vi har modtaget din besked. Vi vender tilbage til dig så hurtigt som muligt. Slet venligst ikke chatten, så vi kan sende dig et svar."
 
 [en]
-hello_msg = "Hello! Write your message"
+hello_msg = "Hello! Please send us your question, feedback, or problem description — we'll try to resolve it soon."
 first_reply = "We have received your message. We'll get back to you as soon as we can. Please don't delete the chat so we can send you a reply."
 
 [es]
-hello_msg = "¡Hola! Escribe tu mensaje"
+hello_msg = "¡Hola! Envíanos tu pregunta, comentario o descripción del problema — intentaremos resolverlo pronto."
 first_reply = "Hemos recibido tu mensaje. Te responderemos lo antes posible. No elimines el chat para que podamos enviarte una respuesta."
 
 [fi]
-hello_msg = "Hei! Kirjoita viestisi"
+hello_msg = "Hei! Lähetä kysymyksesi, palautteesi tai ongelman kuvaus — yritämme ratkaista sen pian."
 first_reply = "Olemme vastaanottaneet viestisi. Palaamme sinulle mahdollisimman pian. Älä poista keskustelua, jotta voimme lähettää sinulle vastauksen."
 
 [fr]
-hello_msg = "Bonjour ! Écrivez votre message"
+hello_msg = "Bonjour ! Envoyez-nous votre question, votre avis ou la description du problème — nous essaierons de le résoudre rapidement."
 first_reply = "Nous avons bien reçu votre message. Nous vous répondrons dès que possible. Merci de ne pas supprimer la conversation afin que nous puissions vous répondre."
 
 [he]
-hello_msg = "שלום! כתבו את ההודעה שלכם"
+hello_msg = "שלום! שלחו שאלה, משוב או תיאור של הבעיה — נשתדל לפתור זאת בקרוב."
 first_reply = "קיבלנו את ההודעה שלכם. נחזור אליכם בהקדם האפשרי. נא לא למחוק את הצ'אט כדי שנוכל לשלוח לכם תשובה."
 
 [hr]
-hello_msg = "Pozdrav! Napišite svoju poruku"
+hello_msg = "Pozdrav! Pošaljite pitanje, povratnu informaciju ili opis problema — potrudit ćemo se to uskoro riješiti."
 first_reply = "Primili smo vašu poruku. Javit ćemo vam se čim prije. Nemojte izbrisati chat kako bismo vam mogli poslati odgovor."
 
 [hu]
-hello_msg = "Üdvözöljük! Írja meg az üzenetét"
+hello_msg = "Üdvözöljük! Küldje el kérdését, visszajelzését vagy a probléma leírását — igyekszünk hamar megoldani."
 first_reply = "Megkaptuk az üzenetét. A lehető leghamarabb válaszolunk. Kérjük, ne törölje a csevegést, hogy el tudjuk küldeni a választ."
 
 [is]
-hello_msg = "Halló! Skrifaðu skilaboðin þín"
+hello_msg = "Halló! Sendu okkur spurningu, ábendingu eða lýsingu á vandamálinu — við reynum að leysa það fljótlega."
 first_reply = "Við höfum móttekið skilaboðin þín. Við svörum þér eins fljótt og auðið er. Vinsamlegast ekki eyða spjallinu svo við getum sent þér svar."
 
 [ga]
-hello_msg = "Dia dhuit! Scríobh do theachtaireacht"
+hello_msg = "Dia dhuit! Seol do cheist, aiseolas nó cur síos ar an bhfadhb — déanfaimid iarracht é a réiteach go luath."
 first_reply = "Tá do theachtaireacht faighte againn. Rachaimid i dteagmháil leat chomh luath agus is féidir. Ná scrios an comhrá, le do thoil, ionas gur féidir linn freagra a sheoladh chugat."
 
 [it]
-hello_msg = "Ciao! Scrivi il tuo messaggio"
+hello_msg = "Ciao! Inviaci la tua domanda, il tuo feedback o la descrizione del problema — cercheremo di risolverlo presto."
 first_reply = "Abbiamo ricevuto il tuo messaggio. Ti risponderemo il prima possibile. Non eliminare la chat, così potremo inviarti una risposta."
 
 [kk]
-hello_msg = "Сәлеметсіз бе! Хабарламаңызды жазыңыз"
+hello_msg = "Сәлеметсіз бе! Сұрағыңызды, пікіріңізді немесе мәселенің сипаттамасын жіберіңіз — оны жақын арада шешуге тырысамыз."
 first_reply = "Хабарламаңызды алдық. Сізге мүмкіндігінше тез жауап береміз. Жауап жібере алуымыз үшін чатты өшірмеңіз."
 
 [lb]
-hello_msg = "Moien! Schreif deng Noriicht"
+hello_msg = "Moien! Schéck eis deng Fro, däi Feedback oder eng Beschreiwung vum Problem — mir probéieren et geschwënn ze léisen."
 first_reply = "Mir hunn deng Noriicht kritt. Mir mellen eis esou séier wéi méiglech zeréck. Läscht w.e.g. de Chat net, fir datt mir dir eng Äntwert schécke kënnen."
 
 [lt]
-hello_msg = "Sveiki! Parašykite savo žinutę"
+hello_msg = "Sveiki! Atsiųskite klausimą, atsiliepimą arba problemos aprašymą — pasistengsime tai greitai išspręsti."
 first_reply = "Gavome jūsų žinutę. Susisieksime su jumis kaip įmanoma greičiau. Prašome neištrinti pokalbio, kad galėtume atsiųsti jums atsakymą."
 
 [lv]
-hello_msg = "Sveiki! Uzrakstiet savu ziņojumu"
+hello_msg = "Sveiki! Nosūtiet savu jautājumu, atsauksmi vai problēmas aprakstu — centīsimies to drīz atrisināt."
 first_reply = "Mēs saņēmām jūsu ziņojumu. Atbildēsim jums, cik drīz vien iespējams. Lūdzu, neizdzēsiet čatu, lai mēs varētu nosūtīt jums atbildi."
 
 [mk]
-hello_msg = "Здраво! Напишете ја вашата порака"
+hello_msg = "Здраво! Испратете прашање, повратна информација или опис на проблемот — ќе се обидеме да го решиме наскоро."
 first_reply = "Ја добивме вашата порака. Ќе ви одговориме што е можно поскоро. Ве молиме не го бришете разговорот за да можеме да ви испратиме одговор."
 
 [nl]
-hello_msg = "Hallo! Schrijf je bericht"
+hello_msg = "Hallo! Stuur ons je vraag, feedback of probleembeschrijving — we proberen het snel op te lossen."
 first_reply = "We hebben je bericht ontvangen. We nemen zo snel mogelijk contact met je op. Verwijder de chat niet, zodat we je een antwoord kunnen sturen."
 
 [no]
-hello_msg = "Hei! Skriv meldingen din"
+hello_msg = "Hei! Send oss spørsmålet ditt, tilbakemelding eller en beskrivelse av problemet — vi prøver å løse det snart."
 first_reply = "Vi har mottatt meldingen din. Vi svarer deg så snart vi kan. Ikke slett chatten, slik at vi kan sende deg et svar."
 
 [pt]
-hello_msg = "Olá! Escreva sua mensagem"
+hello_msg = "Olá! Envie sua pergunta, feedback ou descrição do problema — tentaremos resolver em breve."
 first_reply = "Recebemos sua mensagem. Entraremos em contato assim que possível. Não exclua a conversa para que possamos enviar uma resposta."
 
 [pl]
-hello_msg = "Dzień dobry! Napisz swoją wiadomość"
+hello_msg = "Dzień dobry! Wyślij pytanie, opinię albo opis problemu — postaramy się wkrótce to rozwiązać."
 first_reply = "Otrzymaliśmy Twoją wiadomość. Odpowiemy tak szybko, jak to możliwe. Nie usuwaj czatu, abyśmy mogli wysłać Ci odpowiedź."
 
 [ro]
-hello_msg = "Bună! Scrie mesajul tău"
+hello_msg = "Bună! Trimite-ne întrebarea, feedbackul sau descrierea problemei — vom încerca să o rezolvăm curând."
 first_reply = "Am primit mesajul tău. Îți vom răspunde cât mai curând posibil. Te rugăm să nu ștergi conversația, ca să îți putem trimite un răspuns."
 
 [ru]
-hello_msg = "Здравствуйте! Напишите ваше сообщение"
+hello_msg = "Здравствуйте! Напишите ваш вопрос, отзыв или описание проблемы — постараемся решить её в ближайшее время."
 first_reply = "Мы получили ваше сообщение. Мы ответим вам как можно скорее. Пожалуйста, не удаляйте чат, чтобы мы могли отправить вам ответ."
 
 [sk]
-hello_msg = "Dobrý deň! Napíšte svoju správu"
+hello_msg = "Dobrý deň! Pošlite nám otázku, spätnú väzbu alebo opis problému — pokúsime sa ho čoskoro vyriešiť."
 first_reply = "Dostali sme vašu správu. Ozveme sa vám čo najskôr. Prosím, nemažte chat, aby sme vám mohli poslať odpoveď."
 
 [sl]
-hello_msg = "Pozdravljeni! Napišite svoje sporočilo"
+hello_msg = "Pozdravljeni! Pošljite vprašanje, povratno informacijo ali opis težave — potrudili se bomo, da jo kmalu rešimo."
 first_reply = "Prejeli smo vaše sporočilo. Odgovorili vam bomo takoj, ko bo mogoče. Prosimo, ne izbrišite klepeta, da vam bomo lahko poslali odgovor."
 
 [sr]
-hello_msg = "Здраво! Напишите своју поруку"
+hello_msg = "Здраво! Пошаљите питање, повратну информацију или опис проблема — потрудићемо се да га ускоро решимо."
 first_reply = "Примили смо вашу поруку. Одговорићемо вам што је пре могуће. Молимо вас да не бришете чет како бисмо могли да вам пошаљемо одговор."
 
 [sv]
-hello_msg = "Hej! Skriv ditt meddelande"
+hello_msg = "Hej! Skicka din fråga, feedback eller problembeskrivning — vi försöker lösa det snart."
 first_reply = "Vi har tagit emot ditt meddelande. Vi återkommer till dig så snart vi kan. Radera inte chatten så att vi kan skicka ett svar till dig."
 
 [uk]
-hello_msg = "Вітаємо! Напишіть ваше повідомлення"
+hello_msg = "Вітаємо! Напишіть ваше питання, відгук або опис проблеми — постараємося вирішити її найближчим часом."
 first_reply = "Ми отримали ваше повідомлення. Ми відповімо вам якнайшвидше. Будь ласка, не видаляйте чат, щоб ми могли надіслати вам відповідь."
 
 [uz]
-hello_msg = "Salom! Xabaringizni yozing"
+hello_msg = "Salom! Savolingiz, fikr-mulohazangiz yoki muammo tavsifini yuboring — uni tez orada hal qilishga harakat qilamiz."
 first_reply = "Xabaringizni oldik. Sizga imkon qadar tezroq javob beramiz. Javob yubora olishimiz uchun chatni o'chirmang."
