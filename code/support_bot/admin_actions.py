@@ -2,7 +2,7 @@ import asyncio
 
 import aiogram.types as agtypes
 from aiogram import Dispatcher
-from aiogram.exceptions import TelegramBadRequest, TelegramForbiddenError
+from aiogram.exceptions import TelegramBadRequest, TelegramForbiddenError, TelegramRetryAfter
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.base import StorageKey
@@ -25,13 +25,13 @@ async def del_old_topics(call: agtypes.CallbackQuery):
     """
     msg = call.message
     bot, db = msg.bot, msg.bot.db
-    await msg.answer(bot.admin_menu[AdminBtn.del_old_topics]['answer'])
+    await msg.answer(bot.admin_menu[AdminBtn.DEL_OLD_TOPICS]['answer'])
 
     i = 0
     for tguser in await db.tguser.get_olds():
         if tguser.thread_id:
             try:
-                await bot.delete_forum_topic(bot.cfg['admin_group_id'], tguser.thread_id)
+                await bot.delete_forum_topic(bot.cfg.admin_group_id, tguser.thread_id)
                 i += 1
             except TelegramBadRequest as exc:
                 await bot.log_error(exc)
@@ -56,7 +56,7 @@ async def admin_broadcast_start(call: agtypes.CallbackQuery, dispatcher: Dispatc
     state = FSMContext(dispatcher.storage, key)
 
     await state.set_state(BroadcastForm.message)
-    await msg.answer(bot.admin_menu[AdminBtn.broadcast]['answer'])
+    await msg.answer(bot.admin_menu[AdminBtn.BROADCAST]['answer'])
 
 
 @log
@@ -79,7 +79,7 @@ async def admin_broadcast_ask_confirm(msg: agtypes.Message, state: FSMContext,
     await asyncio.sleep(0.1)
 
     text = 'Send this 👆 message to all the bot users?'
-    await send_new_msg_with_keyboard(bot, bot.cfg['admin_group_id'], text, build_confirm_menu())
+    await send_new_msg_with_keyboard(bot, bot.cfg.admin_group_id, text, build_confirm_menu())
 
 
 @log
@@ -101,21 +101,38 @@ async def admin_broadcast_finish(call: agtypes.CallbackQuery, state: FSMContext,
         await bot.edit_message_text(chat_id=msg.chat.id, message_id=cbd.msgid, text=text)
 
         success_count = 0
+        forbidden_count = 0
         users = await bot.db.tguser.get_all()
         for i, user in enumerate(users):
-            try:
-                await bot.copy_message(user.user_id, from_chat_id=msg.chat.id,
-                                       message_id=state_data['message'])
-                success_count += 1
-            except TelegramForbiddenError as exc:
-                pass
+            while True:
+                try:
+                    await bot.copy_message(user.user_id, from_chat_id=msg.chat.id,
+                                           message_id=state_data['message'])
+                    success_count += 1
+                    break
+                except TelegramRetryAfter as exc:
+                    await bot.log(f'Throttled by Telegram, sleeping {exc.retry_after}s')
+                    await asyncio.sleep(exc.retry_after)
+                except TelegramForbiddenError:
+                    forbidden_count += 1
+                    break
+                except Exception as exc:
+                    await bot.log_error(exc, traceback=False)
+                    break
+
+            await asyncio.sleep(0.05)  # ~20 msgs/sec, under Telegram's ~30/sec global cap
 
             if len(users) > 50 and i != 0 and i % (len(users) // 10) == 0:
                 await bot.log(f'{i}/{len(users)} processed for broadcasting')
 
         res_str = f'{success_count}/{len(users)}'
         await bot.log(f'Broadcasting is done: {res_str}')
-        await msg.answer(f'Broadcasting is done 🫡. {res_str} users received the message.')
+
+        report = f'Broadcasting is done 🫡. {res_str} users received the message.'
+        if forbidden_count:
+            postfix = 's' if forbidden_count > 1 else ''
+            report += f' Messages to {forbidden_count} user{postfix} were forbidden by Telegram.'
+        await msg.answer(report)
 
     elif cbd.code == 'no':
         text = 'Broadcasting canceled'

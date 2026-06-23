@@ -25,8 +25,8 @@ def setup_logger(level=logging.INFO, log_path=None) -> logging.Logger:
 
     stream_handler = logging.StreamHandler()
     stream_handler.setLevel(level)
-    frmtr = logging.Formatter('%(asctime)s %(levelname)s: %(message)s')
-    stream_handler.setFormatter(frmtr)
+    formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s')
+    stream_handler.setFormatter(formatter)
     logger.addHandler(stream_handler)
 
     if log_path:
@@ -38,7 +38,7 @@ def setup_logger(level=logging.INFO, log_path=None) -> logging.Logger:
             backupCount=5,
         )
         file_handler.setLevel(level)
-        file_handler.setFormatter(frmtr)
+        file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
 
 
@@ -82,8 +82,8 @@ def cmd_makemigrations() -> None:
 
     db_url = 'sqlite:///:memory:'
     for bot in BOTS:
-        if 'sql' in bot.cfg['db_engine'].lower():
-            db_url = bot.cfg['db_url']
+        if 'sql' in bot.cfg.db_engine.lower():
+            db_url = bot.cfg.db_url
 
     envvar = f'MBSB_SQLALCHEMY_URL="{db_url}"'
     stream = os.popen(f'{envvar} alembic revision --autogenerate -m "{message}"')
@@ -95,9 +95,9 @@ def cmd_migrate() -> None:
     Migrate each bot DB
     """
     for bot in BOTS:
-        if 'sql' in bot.cfg['db_engine'].lower():
+        if 'sql' in bot.cfg.db_engine.lower():
             logger.info('Migrating DB for %s', bot.name)
-            envvar = 'MBSB_SQLALCHEMY_URL=' + bot.cfg['db_url']
+            envvar = 'MBSB_SQLALCHEMY_URL=' + bot.cfg.db_url
             stream = os.popen(f'{envvar} alembic upgrade head')
             stream.read()
 

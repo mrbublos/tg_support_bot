@@ -59,10 +59,10 @@ def _msg_to_row_data(msg: agtypes.Message) -> dict:
     text = msg.text or msg.caption
 
     filename = ''
-    if typ in (MsgType.document, MsgType.audio, MsgType.video):
+    if typ in (MsgType.DOCUMENT, MsgType.AUDIO, MsgType.VIDEO):
         filename = getattr(msg, typ).file_name
 
-    if typ == MsgType.poll:
+    if typ == MsgType.POLL:
         text = msg.poll.question
 
     return {'when': when,
@@ -106,7 +106,7 @@ async def _gsheets_connect(msg: agtypes.Message) -> None:
     bot = msg.bot
     client = await _get_client(bot)
 
-    gsheets_filename = bot.cfg['save_messages_gsheets_filename']
+    gsheets_filename = bot.cfg.save_messages_gsheets_filename
     await bot.log(f'Saving message to Google Sheet "{gsheets_filename}"')
 
     try:  # open spreadsheet document

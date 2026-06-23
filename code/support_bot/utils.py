@@ -23,14 +23,14 @@ def localized_cfg(bot, key: str, user: agtypes.User | agtypes.Chat | None) -> st
     Read a config value localized by Telegram user's locale, with fallback.
     """
     locale = get_user_locale(user)
-    messages = bot.cfg.get('messages_by_locale', {})
+    messages = bot.cfg.messages_by_locale
 
     if locale:
         for candidate in (locale, locale.split('_', maxsplit=1)[0]):
             if candidate in messages and key in messages[candidate]:
                 return messages[candidate][key]
 
-    return bot.cfg[key]
+    return getattr(bot.cfg, key)
 
 
 async def make_user_info(user: agtypes.User, bot=None, tguser=None) -> str:
@@ -80,33 +80,33 @@ def determine_msg_type(msg: agtypes.Message) -> str:
     Determine a type of the message by inspecting its content
     """
     if msg.photo:
-        return MsgType.photo
+        return MsgType.PHOTO
     elif msg.video:
-        return MsgType.video
+        return MsgType.VIDEO
     elif msg.animation:
-        return MsgType.animation
+        return MsgType.ANIMATION
     elif msg.sticker:
-        return MsgType.sticker
+        return MsgType.STICKER
     elif msg.audio:
-        return MsgType.audio
+        return MsgType.AUDIO
     elif msg.voice:
-        return MsgType.voice
+        return MsgType.VOICE
     elif msg.document:
-        return MsgType.document
+        return MsgType.DOCUMENT
     elif msg.video_note:
-        return MsgType.video_note
+        return MsgType.VIDEO_NOTE
     elif msg.contact:
-        return MsgType.contact
+        return MsgType.CONTACT
     elif msg.location:
-        return MsgType.location
+        return MsgType.LOCATION
     elif msg.venue:
-        return MsgType.venue
+        return MsgType.VENUE
     elif msg.poll:
-        return MsgType.poll
+        return MsgType.POLL
     elif msg.dice:
-        return MsgType.dice
+        return MsgType.DICE
     else:
-        return MsgType.regular_or_other
+        return MsgType.REGULAR_OR_OTHER
 
 
 def _clean_log_value(value) -> str:
@@ -172,7 +172,7 @@ async def destruct_messages(bots: list) -> None:
         destructed = 0
 
         for var in 'destruct_user_messages_for_user', 'destruct_bot_messages_for_user':
-            if val := bot.cfg.get(var):
+            if val := getattr(bot.cfg, var):
                 error_reported = False
                 by_bot = var == 'destruct_bot_messages_for_user'
                 before = datetime.datetime.utcnow() - datetime.timedelta(hours=val)
@@ -201,7 +201,7 @@ async def save_for_destruction(msg, bot, chat_id=None):
         return
 
     if chat_id:  # special case when there is no full msg object
-        if bot.cfg.get('destruct_bot_messages_for_user'):
+        if bot.cfg.destruct_bot_messages_for_user:
             await bot.db.msgtodel.add(msg, chat_id=chat_id)
         return
 
@@ -209,5 +209,5 @@ async def save_for_destruction(msg, bot, chat_id=None):
     if msg.from_user.is_bot:
         var = 'destruct_bot_messages_for_user'
 
-    if bot.cfg.get(var):
+    if getattr(bot.cfg, var):
         await bot.db.msgtodel.add(msg)
