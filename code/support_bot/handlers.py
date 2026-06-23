@@ -1,3 +1,5 @@
+import html
+
 import aiogram.types as agtypes
 from aiogram import Dispatcher
 from aiogram.enums.chat_type import ChatType
@@ -16,6 +18,30 @@ from .filters import (
 from .utils import localized_cfg, make_user_info, save_for_destruction
 
 
+def _start_payload(msg: agtypes.Message) -> str:
+    """
+    Return the text after /start, if Telegram sent a deep-link payload.
+    """
+    if not msg.text:
+        return ''
+
+    parts = msg.text.split(maxsplit=1)
+    return parts[1].strip() if len(parts) > 1 else ''
+
+
+async def _send_start_payload_notice(msg: agtypes.Message, thread_id: int) -> None:
+    payload = _start_payload(msg)
+    if not payload:
+        return
+
+    bot = msg.bot
+    await bot.send_message(
+        bot.cfg.admin_group_id,
+        f'User came from bot: {html.escape(payload)}',
+        message_thread_id=thread_id,
+    )
+
+
 @log
 @handle_error
 async def cmd_start(msg: agtypes.Message, *args, **kwargs) -> None:
@@ -28,12 +54,20 @@ async def cmd_start(msg: agtypes.Message, *args, **kwargs) -> None:
     sentmsg = await send_new_msg_with_keyboard(bot, msg.chat.id, hello_msg, bot.menu)
 
     new_user = False
+    thread_id = None
     async with bot.user_lock(user.id):
-        if not await db.tguser.get(user=user):  # save user if it's new
+        tguser = await db.tguser.get(user=user)
+        if tguser:
+            thread_id = tguser.thread_id
+            if not thread_id:
+                thread_id = await _new_topic(msg, tguser=tguser)
+                await db.tguser.update(user.id, thread_id=thread_id)
+        else:  # save user if it's new
             thread_id = await _new_topic(msg)
             await db.tguser.add(user, msg, thread_id)
             new_user = True
 
+    await _send_start_payload_notice(msg, thread_id)
     await save_user_message(msg, new_user=new_user, stat=False)
     await save_for_destruction(msg, bot)
     await save_for_destruction(sentmsg, bot)
