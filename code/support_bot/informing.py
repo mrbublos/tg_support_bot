@@ -9,7 +9,7 @@ from aiogram.exceptions import TelegramBadRequest, TelegramForbiddenError
 
 from .enums import ActionName
 from .gsheets import gsheets_save_admin_message, gsheets_save_user_message
-from .utils import make_short_user_info
+from .utils import format_user_message_log, make_short_user_info
 
 
 def log(func):
@@ -91,9 +91,9 @@ async def save_user_message(
     ) -> None:
     """
     Entrypoint for all the mechanisms of saving messages sent by user.
-    There is only one currently: Google Sheets.
     """
     bot = msg.bot
+    await bot.log(format_user_message_log(msg))
 
     gsheets_cred_file = bot.cfg.get('save_messages_gsheets_cred_file', None)
     gsheets_filename = bot.cfg.get('save_messages_gsheets_filename', None)

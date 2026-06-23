@@ -5,9 +5,27 @@ services:
     build: .
     container_name: tg_support_bot
     volumes:
-      - ./shared:/app/shared
+      - /home/ubuntu/logs/tg_support_bot:/app/shared
     env_file:
       - /home/ubuntu/src/tg_support_bot/.env
+    restart: unless-stopped
+    user: appuser
+    # Resource limits for production
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: '0.5'
+        reservations:
+          memory: 128M
+          cpus: '0.25'
+  astro-ru:
+    build: .
+    container_name: tg_support_bot
+    volumes:
+      - /home/ubuntu/logs/tg_support_bot/astromatrix-ru:/app/shared
+    env_file:
+      - /home/ubuntu/src/tg_support_bot/.env.astromatrix
     restart: unless-stopped
     user: appuser
     # Resource limits for production

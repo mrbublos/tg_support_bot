@@ -14,6 +14,10 @@ The following variables are available in `.env` file:
 - `{BOTNAME}_DESTRUCT_USER_MESSAGES_FOR_USER` - Optional. If the bot should delete user messages in the user chat after specified amount of hours. Accepted values are between 1 and 47.
 - `{BOTNAME}_DESTRUCT_BOT_MESSAGES_FOR_USER` - Optional. If the bot should delete its own messages in the user chat after specified amount of hours. Accepted values are between 1 and 47.
 
+## Logs
+
+The application writes logs to `shared/support_bot.log`. Every user message handled by the bot is logged with message ID, user, chat ID, date, message type, forward status, and a compact content summary. The log file is rotated daily and keeps 5 backups.
+
 ## Styling messages
 
 Messages set as .env variables can be formatted with Telegram HTML tags, such as `<b>`, `<i>`, `<s>` and so on, see the full list [here](https://publer.com/help/en/article/how-to-style-telegram-text-using-html-tags-xdepnw/). One can also use `\n` for a new line.

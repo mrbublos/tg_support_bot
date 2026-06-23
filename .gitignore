@@ -162,3 +162,5 @@ cython_debug/
 shared/
 .env.local
 .env.prod
+.env.prod.*
+.idea

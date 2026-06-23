@@ -2,6 +2,7 @@
 import logging
 import os
 import sys
+from logging.handlers import TimedRotatingFileHandler
 from pathlib import Path
 
 import asyncio
@@ -20,6 +21,7 @@ def setup_logger(level=logging.INFO, log_path=None) -> logging.Logger:
     global logger
     logger = logging.getLogger('support_bot')
     logger.setLevel(level)
+    logger.handlers.clear()
 
     stream_handler = logging.StreamHandler()
     stream_handler.setLevel(level)
@@ -29,7 +31,12 @@ def setup_logger(level=logging.INFO, log_path=None) -> logging.Logger:
 
     if log_path:
         log_path.parent.mkdir(parents=True, exist_ok=True)
-        file_handler = logging.FileHandler(log_path)
+        file_handler = TimedRotatingFileHandler(
+            log_path,
+            when='midnight',
+            interval=1,
+            backupCount=5,
+        )
         file_handler.setLevel(level)
         file_handler.setFormatter(frmtr)
         logger.addHandler(file_handler)

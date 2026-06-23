@@ -1,5 +1,6 @@
 import datetime
 import html
+import re
 
 import aiogram.types as agtypes
 
@@ -106,6 +107,61 @@ def determine_msg_type(msg: agtypes.Message) -> str:
         return MsgType.dice
     else:
         return MsgType.regular_or_other
+
+
+def _clean_log_value(value) -> str:
+    """
+    Keep user-provided log fields on one line.
+    """
+    return re.sub(r'\s+', ' ', str(value or '')).strip()
+
+
+def _message_log_text(msg: agtypes.Message, msg_type: str) -> str:
+    """
+    Return a compact content summary for a Telegram message.
+    """
+    if text := msg.text or msg.caption:
+        return f'text="{_clean_log_value(text)}"'
+
+    if msg_type in (MsgType.document, MsgType.audio, MsgType.video):
+        media = getattr(msg, msg_type)
+        return f'file="{_clean_log_value(getattr(media, "file_name", ""))}"'
+
+    if msg_type == MsgType.photo:
+        return f'photos={len(msg.photo)}'
+    if msg_type == MsgType.sticker:
+        return f'sticker="{_clean_log_value(msg.sticker.emoji)}"'
+    if msg_type == MsgType.contact:
+        return f'contact_phone="{_clean_log_value(msg.contact.phone_number)}"'
+    if msg_type == MsgType.location:
+        return f'location="{msg.location.latitude},{msg.location.longitude}"'
+    if msg_type == MsgType.venue:
+        return f'venue="{_clean_log_value(msg.venue.title)}"'
+    if msg_type == MsgType.poll:
+        return f'poll="{_clean_log_value(msg.poll.question)}"'
+    if msg_type == MsgType.dice:
+        return f'dice="{_clean_log_value(msg.dice.emoji)}:{msg.dice.value}"'
+
+    return 'text=""'
+
+
+def format_user_message_log(msg: agtypes.Message) -> str:
+    """
+    Format a user message for the application log.
+    """
+    user = msg.from_user or msg.chat
+    msg_type = determine_msg_type(msg)
+    user_info = make_short_user_info(user=user)
+    content = _message_log_text(msg, msg_type)
+    return (
+        f'user_message message_id={msg.message_id} '
+        f'user="{_clean_log_value(user_info)}" '
+        f'chat_id={msg.chat.id} '
+        f'date="{msg.date.isoformat()}" '
+        f'type={msg_type} '
+        f'forward={"yes" if msg.forward_origin else "no"} '
+        f'{content}'
+    )
 
 
 async def destruct_messages(bots: list) -> None:
