@@ -21,7 +21,7 @@ services:
           cpus: '0.25'
   astro-ru:
     build: .
-    container_name: tg_support_bot
+    container_name: astro-support-bot
     volumes:
       - /home/ubuntu/logs/tg_support_bot/astromatrix-ru:/app/shared
     env_file:
