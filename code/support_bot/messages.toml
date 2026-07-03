@@ -6,9 +6,25 @@ first_reply = "We have received your message. We'll get back to you as soon as w
 hello_msg = "مرحبًا! أرسل سؤالك أو ملاحظتك أو وصف المشكلة — سنحاول حلها قريبًا."
 first_reply = "لقد استلمنا رسالتك. سنعود إليك في أقرب وقت ممكن. من فضلك لا تحذف المحادثة حتى نتمكن من إرسال الرد إليك."
 
+[ar_001]
+hello_msg = "مرحبًا! أرسل سؤالك أو ملاحظتك أو وصف المشكلة — سنحاول حلها قريبًا."
+first_reply = "لقد استلمنا رسالتك. سنعود إليك في أقرب وقت ممكن. من فضلك لا تحذف المحادثة حتى نتمكن من إرسال الرد إليك."
+
+[am]
+hello_msg = "ሰላም! ጥያቄዎን፣ አስተያየትዎን ወይም የችግሩን መግለጫ ይላኩልን — በቅርቡ ለመፍታት እንሞክራለን."
+first_reply = "መልዕክትዎን ተቀብለናል። በተቻለ ፍጥነት እንመልስልዎታለን። መልስ ልንልክልዎ እንድንችል እባክዎ ውይይቱን አይሰርዙ."
+
+[az]
+hello_msg = "Salam! Sualınızı, rəyinizi və ya problemin təsvirini göndərin — tezliklə həll etməyə çalışacağıq."
+first_reply = "Mesajınızı aldıq. Sizə mümkün qədər tez cavab verəcəyik. Cavab göndərə bilməyimiz üçün xahiş edirik çatı silməyin."
+
 [be]
 hello_msg = "Вітаем! Напішыце ваша пытанне, водгук або апісанне праблемы — пастараемся вырашыць яе ў бліжэйшы час."
 first_reply = "Мы атрымалі ваша паведамленне. Мы адкажам вам як мага хутчэй. Калі ласка, не выдаляйце чат, каб мы маглі даслаць вам адказ."
+
+[bn]
+hello_msg = "হ্যালো! আপনার প্রশ্ন, মতামত বা সমস্যার বিবরণ পাঠান — আমরা দ্রুত সমাধানের চেষ্টা করব।"
+first_reply = "আমরা আপনার বার্তা পেয়েছি। যত দ্রুত সম্ভব আমরা আপনার সাথে যোগাযোগ করব। অনুগ্রহ করে চ্যাটটি মুছে ফেলবেন না, যাতে আমরা আপনাকে উত্তর পাঠাতে পারি।"
 
 [bg]
 hello_msg = "Здравейте! Изпратете въпрос, обратна връзка или описание на проблема — ще се постараем да го решим скоро."
@@ -46,17 +62,41 @@ first_reply = "Olemme vastaanottaneet viestisi. Palaamme sinulle mahdollisimman 
 hello_msg = "Bonjour ! Envoyez-nous votre question, votre avis ou la description du problème — nous essaierons de le résoudre rapidement."
 first_reply = "Nous avons bien reçu votre message. Nous vous répondrons dès que possible. Merci de ne pas supprimer la conversation afin que nous puissions vous répondre."
 
+[fil]
+hello_msg = "Kumusta! Ipadala ang iyong tanong, feedback, o paglalarawan ng problema — susubukan naming ayusin ito sa lalong madaling panahon."
+first_reply = "Natanggap namin ang iyong mensahe. Babalikan ka namin sa lalong madaling panahon. Huwag burahin ang chat para makapagpadala kami sa iyo ng sagot."
+
+[gu]
+hello_msg = "નમસ્તે! તમારો પ્રશ્ન, પ્રતિસાદ અથવા સમસ્યાનું વર્ણન મોકલો — અમે તેને જલદી ઉકેલવાનો પ્રયાસ કરીશું."
+first_reply = "અમને તમારો સંદેશ મળી ગયો છે. અમે શક્ય તેટલી વહેલી તકે તમને જવાબ આપીશું. કૃપા કરીને ચેટ કાઢી ન નાખો, જેથી અમે તમને જવાબ મોકલી શકીએ."
+
+[ha]
+hello_msg = "Sannu! Aika tambayarka, ra'ayinka, ko bayanin matsalar — za mu yi kokarin warware ta ba da jimawa ba."
+first_reply = "Mun karbi sakonka. Za mu tuntube ka da wuri-wuri. Don Allah kada ka goge hirar domin mu iya aiko maka da amsa."
+
 [he]
 hello_msg = "שלום! שלחו שאלה, משוב או תיאור של הבעיה — נשתדל לפתור זאת בקרוב."
 first_reply = "קיבלנו את ההודעה שלכם. נחזור אליכם בהקדם האפשרי. נא לא למחוק את הצ'אט כדי שנוכל לשלוח לכם תשובה."
+
+[hi]
+hello_msg = "नमस्ते! अपना सवाल, प्रतिक्रिया या समस्या का विवरण भेजें — हम इसे जल्द हल करने की कोशिश करेंगे."
+first_reply = "हमें आपका संदेश मिल गया है। हम जल्द से जल्द आपसे संपर्क करेंगे। कृपया चैट डिलीट न करें, ताकि हम आपको जवाब भेज सकें."
 
 [hr]
 hello_msg = "Pozdrav! Pošaljite pitanje, povratnu informaciju ili opis problema — potrudit ćemo se to uskoro riješiti."
 first_reply = "Primili smo vašu poruku. Javit ćemo vam se čim prije. Nemojte izbrisati chat kako bismo vam mogli poslati odgovor."
 
+[hy]
+hello_msg = "Բարև։ Ուղարկեք ձեր հարցը, կարծիքը կամ խնդրի նկարագրությունը — կփորձենք շուտով լուծել այն։"
+first_reply = "Մենք ստացել ենք ձեր հաղորդագրությունը։ Կպատասխանենք որքան հնարավոր է շուտ։ Խնդրում ենք չջնջել զրույցը, որպեսզի կարողանանք ձեզ պատասխան ուղարկել։"
+
 [hu]
 hello_msg = "Üdvözöljük! Küldje el kérdését, visszajelzését vagy a probléma leírását — igyekszünk hamar megoldani."
 first_reply = "Megkaptuk az üzenetét. A lehető leghamarabb válaszolunk. Kérjük, ne törölje a csevegést, hogy el tudjuk küldeni a választ."
+
+[ig]
+hello_msg = "Ndewo! Ziga ajụjụ gị, nzaghachi gị, ma ọ bụ nkọwa nsogbu ahụ — anyị ga-agbalị idozi ya n'oge na-adịghị anya."
+first_reply = "Anyị anatala ozi gị. Anyị ga-aza gị ozugbo o kwere omume. Biko ehichapụla mkparịta ụka ahụ ka anyị nwee ike izitere gị azịza."
 
 [is]
 hello_msg = "Halló! Sendu okkur spurningu, ábendingu eða lýsingu á vandamálinu — við reynum að leysa það fljótlega."
@@ -74,6 +114,14 @@ first_reply = "Abbiamo ricevuto il tuo messaggio. Ti risponderemo il prima possi
 hello_msg = "Сәлеметсіз бе! Сұрағыңызды, пікіріңізді немесе мәселенің сипаттамасын жіберіңіз — оны жақын арада шешуге тырысамыз."
 first_reply = "Хабарламаңызды алдық. Сізге мүмкіндігінше тез жауап береміз. Жауап жібере алуымыз үшін чатты өшірмеңіз."
 
+[kn]
+hello_msg = "ನಮಸ್ಕಾರ! ನಿಮ್ಮ ಪ್ರಶ್ನೆ, ಪ್ರತಿಕ್ರಿಯೆ ಅಥವಾ ಸಮಸ್ಯೆಯ ವಿವರಣೆಯನ್ನು ಕಳುಹಿಸಿ — ಅದನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪರಿಹರಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತೇವೆ."
+first_reply = "ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ನಾವು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ. ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತೇವೆ. ನಿಮಗೆ ಉತ್ತರ ಕಳುಹಿಸಲು ಸಾಧ್ಯವಾಗಲು ದಯವಿಟ್ಟು ಚಾಟ್ ಅಳಿಸಬೇಡಿ."
+
+[ky]
+hello_msg = "Салам! Сурооңузду, пикириңизди же көйгөйдүн сүрөттөмөсүн жөнөтүңүз — аны жакында чечүүгө аракет кылабыз."
+first_reply = "Билдирүүңүздү алдык. Сизге мүмкүн болушунча тез жооп беребиз. Жооп жөнөтө алышыбыз үчүн чатты өчүрбөңүз."
+
 [lb]
 hello_msg = "Moien! Schéck eis deng Fro, däi Feedback oder eng Beschreiwung vum Problem — mir probéieren et geschwënn ze léisen."
 first_reply = "Mir hunn deng Noriicht kritt. Mir mellen eis esou séier wéi méiglech zeréck. Läscht w.e.g. de Chat net, fir datt mir dir eng Äntwert schécke kënnen."
@@ -86,9 +134,21 @@ first_reply = "Gavome jūsų žinutę. Susisieksime su jumis kaip įmanoma grei�
 hello_msg = "Sveiki! Nosūtiet savu jautājumu, atsauksmi vai problēmas aprakstu — centīsimies to drīz atrisināt."
 first_reply = "Mēs saņēmām jūsu ziņojumu. Atbildēsim jums, cik drīz vien iespējams. Lūdzu, neizdzēsiet čatu, lai mēs varētu nosūtīt jums atbildi."
 
+[ml]
+hello_msg = "ഹലോ! നിങ്ങളുടെ ചോദ്യം, അഭിപ്രായം അല്ലെങ്കിൽ പ്രശ്നത്തിന്റെ വിവരണം അയയ്ക്കൂ — അത് ഉടൻ പരിഹരിക്കാൻ ഞങ്ങൾ ശ്രമിക്കും."
+first_reply = "നിങ്ങളുടെ സന്ദേശം ഞങ്ങൾക്ക് ലഭിച്ചു. കഴിയുന്നത്ര വേഗത്തിൽ ഞങ്ങൾ മറുപടി നൽകും. നിങ്ങൾക്ക് മറുപടി അയയ്ക്കാൻ കഴിയുന്നതിനായി ദയവായി ചാറ്റ് ഇല്ലാതാക്കരുത്."
+
 [mk]
 hello_msg = "Здраво! Испратете прашање, повратна информација или опис на проблемот — ќе се обидеме да го решиме наскоро."
 first_reply = "Ја добивме вашата порака. Ќе ви одговориме што е можно поскоро. Ве молиме не го бришете разговорот за да можеме да ви испратиме одговор."
+
+[mr]
+hello_msg = "नमस्कार! तुमचा प्रश्न, अभिप्राय किंवा समस्येचे वर्णन पाठवा — आम्ही ते लवकर सोडवण्याचा प्रयत्न करू."
+first_reply = "आम्हाला तुमचा संदेश मिळाला आहे. आम्ही शक्य तितक्या लवकर तुम्हाला उत्तर देऊ. कृपया चॅट हटवू नका, जेणेकरून आम्ही तुम्हाला उत्तर पाठवू शकू."
+
+[ms]
+hello_msg = "Hai! Hantar soalan, maklum balas atau penerangan masalah anda — kami akan cuba menyelesaikannya tidak lama lagi."
+first_reply = "Kami telah menerima mesej anda. Kami akan menghubungi anda secepat mungkin. Sila jangan padamkan sembang supaya kami boleh menghantar balasan kepada anda."
 
 [nl]
 hello_msg = "Hallo! Stuur ons je vraag, feedback of probleembeschrijving — we proberen het snel op te lossen."
@@ -98,6 +158,10 @@ first_reply = "We hebben je bericht ontvangen. We nemen zo snel mogelijk contact
 hello_msg = "Hei! Send oss spørsmålet ditt, tilbakemelding eller en beskrivelse av problemet — vi prøver å løse det snart."
 first_reply = "Vi har mottatt meldingen din. Vi svarer deg så snart vi kan. Ikke slett chatten, slik at vi kan sende deg et svar."
 
+[om]
+hello_msg = "Akkam! Gaaffii, yaada deebii, yookaan ibsa rakkoo keessanii nuuf ergaa — dhi soonatti hiikuuf ni yaalla."
+first_reply = "Ergaa keessan arganneerra. Hamma dandeenyetti dafnee deebina. Deebii isiniif erguu akka dandeenyuuf maaloo marii kana hin haqinaa."
+
 [pt]
 hello_msg = "Olá! Envie sua pergunta, feedback ou descrição do problema — tentaremos resolver em breve."
 first_reply = "Recebemos sua mensagem. Entraremos em contato assim que possível. Não exclua a conversa para que possamos enviar uma resposta."
@@ -105,6 +169,10 @@ first_reply = "Recebemos sua mensagem. Entraremos em contato assim que possível
 [pl]
 hello_msg = "Dzień dobry! Wyślij pytanie, opinię albo opis problemu — postaramy się wkrótce to rozwiązać."
 first_reply = "Otrzymaliśmy Twoją wiadomość. Odpowiemy tak szybko, jak to możliwe. Nie usuwaj czatu, abyśmy mogli wysłać Ci odpowiedź."
+
+[pa]
+hello_msg = "ਸਤ ਸ੍ਰੀ ਅਕਾਲ! ਆਪਣਾ ਸਵਾਲ, ਫੀਡਬੈਕ ਜਾਂ ਸਮੱਸਿਆ ਦਾ ਵੇਰਵਾ ਭੇਜੋ — ਅਸੀਂ ਇਸਨੂੰ ਜਲਦੀ ਹੱਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਾਂਗੇ."
+first_reply = "ਸਾਨੂੰ ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਮਿਲ ਗਿਆ ਹੈ। ਅਸੀਂ ਜਿੰਨੀ ਜਲਦੀ ਹੋ ਸਕੇ ਤੁਹਾਨੂੰ ਜਵਾਬ ਦੇਵਾਂਗੇ। ਕਿਰਪਾ ਕਰਕੇ ਚੈਟ ਨਾ ਮਿਟਾਓ, ਤਾਂ ਜੋ ਅਸੀਂ ਤੁਹਾਨੂੰ ਜਵਾਬ ਭੇਜ ਸਕੀਏ."
 
 [ro]
 hello_msg = "Bună! Trimite-ne întrebarea, feedbackul sau descrierea problemei — vom încerca să o rezolvăm curând."
@@ -130,10 +198,50 @@ first_reply = "Примили смо вашу поруку. Одговориће
 hello_msg = "Hej! Skicka din fråga, feedback eller problembeskrivning — vi försöker lösa det snart."
 first_reply = "Vi har tagit emot ditt meddelande. Vi återkommer till dig så snart vi kan. Radera inte chatten så att vi kan skicka ett svar till dig."
 
+[ta]
+hello_msg = "வணக்கம்! உங்கள் கேள்வி, கருத்து அல்லது பிரச்சினையின் விளக்கத்தை அனுப்புங்கள் — அதை விரைவில் தீர்க்க முயற்சிப்போம்."
+first_reply = "உங்கள் செய்தியை பெற்றுள்ளோம். முடிந்தவரை விரைவில் உங்களைத் தொடர்புகொள்வோம். பதில் அனுப்ப முடியும் வகையில் தயவுசெய்து உரையாடலை நீக்க வேண்டாம்."
+
+[te]
+hello_msg = "నమస్తే! మీ ప్రశ్న, అభిప్రాయం లేదా సమస్య వివరణను పంపండి — దాన్ని త్వరలో పరిష్కరించడానికి ప్రయత్నిస్తాము."
+first_reply = "మీ సందేశం మాకు అందింది. వీలైనంత త్వరగా మీకు సమాధానం ఇస్తాము. మీకు ప్రత్యుత్తరం పంపడానికి వీలుగా దయచేసి చాట్‌ను తొలగించవద్దు."
+
+[tg]
+hello_msg = "Салом! Савол, фикру мулоҳиза ё тавсифи мушкили худро фиристед — кӯшиш мекунем онро ба зудӣ ҳал кунем."
+first_reply = "Паёми шуморо гирифтем. Ҳарчи зудтар ба шумо ҷавоб медиҳем. Лутфан чатро нест накунед, то тавонем ба шумо ҷавоб фиристем."
+
+[ti]
+hello_msg = "ሰላም! ሕቶኹም፣ ርእይቶኹም ወይ መግለጺ ጸገምኩም ስደዱልና — ቀልጢፍና ክንፈትሖ ክንፍትን ኢና."
+first_reply = "መልእኽትኹም ተቐቢልናዮ ኣለና። ብዝተኻእለ ቅልጡፍ መልሲ ክንህበኩም ኢና። መልሲ ክንሰደልኩም ክንክእል በጃኹም ነቲ ዝርርብ ኣይትደምስሱ."
+
+[tl]
+hello_msg = "Kumusta! Ipadala ang iyong tanong, feedback, o paglalarawan ng problema — susubukan naming ayusin ito sa lalong madaling panahon."
+first_reply = "Natanggap namin ang iyong mensahe. Babalikan ka namin sa lalong madaling panahon. Huwag burahin ang chat para makapagpadala kami sa iyo ng sagot."
+
+[tr]
+hello_msg = "Merhaba! Sorunuzu, geri bildiriminizi veya sorun açıklamanızı gönderin — yakında çözmeye çalışacağız."
+first_reply = "Mesajınızı aldık. Size mümkün olan en kısa sürede geri döneceğiz. Size yanıt gönderebilmemiz için lütfen sohbeti silmeyin."
+
 [uk]
 hello_msg = "Вітаємо! Напишіть ваше питання, відгук або опис проблеми — постараємося вирішити її найближчим часом."
 first_reply = "Ми отримали ваше повідомлення. Ми відповімо вам якнайшвидше. Будь ласка, не видаляйте чат, щоб ми могли надіслати вам відповідь."
 
+[ur]
+hello_msg = "ہیلو! اپنا سوال، رائے یا مسئلے کی تفصیل بھیجیں — ہم اسے جلد حل کرنے کی کوشش کریں گے۔"
+first_reply = "ہمیں آپ کا پیغام موصول ہو گیا ہے۔ ہم جلد از جلد آپ سے رابطہ کریں گے۔ براہ کرم چیٹ حذف نہ کریں تاکہ ہم آپ کو جواب بھیج سکیں۔"
+
 [uz]
 hello_msg = "Salom! Savolingiz, fikr-mulohazangiz yoki muammo tavsifini yuboring — uni tez orada hal qilishga harakat qilamiz."
 first_reply = "Xabaringizni oldik. Sizga imkon qadar tezroq javob beramiz. Javob yubora olishimiz uchun chatni o'chirmang."
+
+[vi]
+hello_msg = "Xin chào! Hãy gửi câu hỏi, phản hồi hoặc mô tả vấn đề của bạn — chúng tôi sẽ cố gắng giải quyết sớm."
+first_reply = "Chúng tôi đã nhận được tin nhắn của bạn. Chúng tôi sẽ phản hồi sớm nhất có thể. Vui lòng không xóa cuộc trò chuyện để chúng tôi có thể gửi câu trả lời cho bạn."
+
+[yo]
+hello_msg = "Bawo! Fi ibeere, esi, tabi apejuwe iṣoro rẹ ranṣẹ — a o gbiyanju lati yanju rẹ laipẹ."
+first_reply = "A ti gba ifiranṣẹ rẹ. A o kan si ọ ni kete bi a ti le ṣe. Jọwọ maṣe pa iwiregbe naa rẹ ki a le fi idahun ranṣẹ si ọ."
+
+[zh]
+hello_msg = "你好！请发送你的问题、反馈或问题描述 — 我们会尽快尝试解决。"
+first_reply = "我们已收到你的消息。我们会尽快回复你。请不要删除聊天，以便我们向你发送回复。"
