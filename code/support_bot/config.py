@@ -20,7 +20,7 @@ class BotConfig(BaseModel):
     """
     name: str
     admin_group_id: int | None = None
-    hello_msg: str = 'Hello! Write your message'
+    hello_msg: str = 'Hello! Write your message. Please use text messages instead of audio or voice messages.'
     hello_ps: str = '\n\n<i>The bot is created by @moladzbel</i>'
     first_reply: str = (
         "We have received your message. We'll get back to you as soon as we can. "

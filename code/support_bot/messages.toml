@@ -1,247 +1,247 @@
 [default]
-hello_msg = "Hello! Please send us your question, feedback, or problem description — we'll try to resolve it soon."
+hello_msg = "Hello! Please send us your question, feedback, or problem description — we'll try to resolve it soon. Please use text messages instead of audio or voice messages."
 first_reply = "We have received your message. We'll get back to you as soon as we can. Please don't delete the chat so we can send you a reply."
 
 [ar]
-hello_msg = "مرحبًا! أرسل سؤالك أو ملاحظتك أو وصف المشكلة — سنحاول حلها قريبًا."
+hello_msg = "مرحبًا! أرسل سؤالك أو ملاحظتك أو وصف المشكلة — سنحاول حلها قريبًا. يرجى استخدام الرسائل النصية بدلًا من الرسائل الصوتية أو التسجيلات الصوتية."
 first_reply = "لقد استلمنا رسالتك. سنعود إليك في أقرب وقت ممكن. من فضلك لا تحذف المحادثة حتى نتمكن من إرسال الرد إليك."
 
 [ar_001]
-hello_msg = "مرحبًا! أرسل سؤالك أو ملاحظتك أو وصف المشكلة — سنحاول حلها قريبًا."
+hello_msg = "مرحبًا! أرسل سؤالك أو ملاحظتك أو وصف المشكلة — سنحاول حلها قريبًا. يرجى استخدام الرسائل النصية بدلًا من الرسائل الصوتية أو التسجيلات الصوتية."
 first_reply = "لقد استلمنا رسالتك. سنعود إليك في أقرب وقت ممكن. من فضلك لا تحذف المحادثة حتى نتمكن من إرسال الرد إليك."
 
 [am]
-hello_msg = "ሰላም! ጥያቄዎን፣ አስተያየትዎን ወይም የችግሩን መግለጫ ይላኩልን — በቅርቡ ለመፍታት እንሞክራለን."
+hello_msg = "ሰላም! ጥያቄዎን፣ አስተያየትዎን ወይም የችግሩን መግለጫ ይላኩልን — በቅርቡ ለመፍታት እንሞክራለን. እባክዎ ከድምጽ ወይም ከኦዲዮ መልዕክቶች ይልቅ የጽሑፍ መልዕክቶችን ይጠቀሙ።"
 first_reply = "መልዕክትዎን ተቀብለናል። በተቻለ ፍጥነት እንመልስልዎታለን። መልስ ልንልክልዎ እንድንችል እባክዎ ውይይቱን አይሰርዙ."
 
 [az]
-hello_msg = "Salam! Sualınızı, rəyinizi və ya problemin təsvirini göndərin — tezliklə həll etməyə çalışacağıq."
+hello_msg = "Salam! Sualınızı, rəyinizi və ya problemin təsvirini göndərin — tezliklə həll etməyə çalışacağıq. Zəhmət olmasa audio və ya səsli mesajlar əvəzinə mətn mesajları göndərin."
 first_reply = "Mesajınızı aldıq. Sizə mümkün qədər tez cavab verəcəyik. Cavab göndərə bilməyimiz üçün xahiş edirik çatı silməyin."
 
 [be]
-hello_msg = "Вітаем! Напішыце ваша пытанне, водгук або апісанне праблемы — пастараемся вырашыць яе ў бліжэйшы час."
+hello_msg = "Вітаем! Напішыце ваша пытанне, водгук або апісанне праблемы — пастараемся вырашыць яе ў бліжэйшы час. Калі ласка, выкарыстоўвайце тэкставыя паведамленні замест аўдыя або галасавых паведамленняў."
 first_reply = "Мы атрымалі ваша паведамленне. Мы адкажам вам як мага хутчэй. Калі ласка, не выдаляйце чат, каб мы маглі даслаць вам адказ."
 
 [bn]
-hello_msg = "হ্যালো! আপনার প্রশ্ন, মতামত বা সমস্যার বিবরণ পাঠান — আমরা দ্রুত সমাধানের চেষ্টা করব।"
+hello_msg = "হ্যালো! আপনার প্রশ্ন, মতামত বা সমস্যার বিবরণ পাঠান — আমরা দ্রুত সমাধানের চেষ্টা করব। অনুগ্রহ করে অডিও বা ভয়েস মেসেজের বদলে টেক্সট মেসেজ ব্যবহার করুন।"
 first_reply = "আমরা আপনার বার্তা পেয়েছি। যত দ্রুত সম্ভব আমরা আপনার সাথে যোগাযোগ করব। অনুগ্রহ করে চ্যাটটি মুছে ফেলবেন না, যাতে আমরা আপনাকে উত্তর পাঠাতে পারি।"
 
 [bg]
-hello_msg = "Здравейте! Изпратете въпрос, обратна връзка или описание на проблема — ще се постараем да го решим скоро."
+hello_msg = "Здравейте! Изпратете въпрос, обратна връзка или описание на проблема — ще се постараем да го решим скоро. Моля, използвайте текстови съобщения вместо аудио или гласови съобщения."
 first_reply = "Получихме вашето съобщение. Ще се свържем с вас възможно най-скоро. Моля, не изтривайте чата, за да можем да ви изпратим отговор."
 
 [bs]
-hello_msg = "Zdravo! Pošaljite pitanje, povratnu informaciju ili opis problema — potrudit ćemo se to uskoro riješiti."
+hello_msg = "Zdravo! Pošaljite pitanje, povratnu informaciju ili opis problema — potrudit ćemo se to uskoro riješiti. Molimo koristite tekstualne poruke umjesto audio ili glasovnih poruka."
 first_reply = "Primili smo vašu poruku. Javit ćemo vam se što je prije moguće. Molimo vas da ne brišete chat kako bismo vam mogli poslati odgovor."
 
 [cs]
-hello_msg = "Dobrý den! Pošlete nám svůj dotaz, zpětnou vazbu nebo popis problému — pokusíme se ho brzy vyřešit."
+hello_msg = "Dobrý den! Pošlete nám svůj dotaz, zpětnou vazbu nebo popis problému — pokusíme se ho brzy vyřešit. Prosím používejte textové zprávy místo audio nebo hlasových zpráv."
 first_reply = "Obdrželi jsme vaši zprávu. Ozveme se vám co nejdříve. Prosím nemažte chat, abychom vám mohli poslat odpověď."
 
 [de]
-hello_msg = "Hallo! Sende uns deine Frage, dein Feedback oder eine Problembeschreibung — wir versuchen, es bald zu lösen."
+hello_msg = "Hallo! Sende uns deine Frage, dein Feedback oder eine Problembeschreibung — wir versuchen, es bald zu lösen. Bitte sende Textnachrichten statt Audio- oder Sprachnachrichten."
 first_reply = "Wir haben deine Nachricht erhalten. Wir melden uns so schnell wie möglich bei dir. Bitte lösche den Chat nicht, damit wir dir antworten können."
 
 [da]
-hello_msg = "Hej! Send os dit spørgsmål, feedback eller en beskrivelse af problemet — vi forsøger at løse det snart."
+hello_msg = "Hej! Send os dit spørgsmål, feedback eller en beskrivelse af problemet — vi forsøger at løse det snart. Brug venligst tekstbeskeder i stedet for lyd- eller talebeskeder."
 first_reply = "Vi har modtaget din besked. Vi vender tilbage til dig så hurtigt som muligt. Slet venligst ikke chatten, så vi kan sende dig et svar."
 
 [en]
-hello_msg = "Hello! Please send us your question, feedback, or problem description — we'll try to resolve it soon."
+hello_msg = "Hello! Please send us your question, feedback, or problem description — we'll try to resolve it soon. Please use text messages instead of audio or voice messages."
 first_reply = "We have received your message. We'll get back to you as soon as we can. Please don't delete the chat so we can send you a reply."
 
 [es]
-hello_msg = "¡Hola! Envíanos tu pregunta, comentario o descripción del problema — intentaremos resolverlo pronto."
+hello_msg = "¡Hola! Envíanos tu pregunta, comentario o descripción del problema — intentaremos resolverlo pronto. Por favor, usa mensajes de texto en lugar de mensajes de audio o de voz."
 first_reply = "Hemos recibido tu mensaje. Te responderemos lo antes posible. No elimines el chat para que podamos enviarte una respuesta."
 
 [fi]
-hello_msg = "Hei! Lähetä kysymyksesi, palautteesi tai ongelman kuvaus — yritämme ratkaista sen pian."
+hello_msg = "Hei! Lähetä kysymyksesi, palautteesi tai ongelman kuvaus — yritämme ratkaista sen pian. Käytäthän tekstiviestejä ääni- tai puheviestien sijaan."
 first_reply = "Olemme vastaanottaneet viestisi. Palaamme sinulle mahdollisimman pian. Älä poista keskustelua, jotta voimme lähettää sinulle vastauksen."
 
 [fr]
-hello_msg = "Bonjour ! Envoyez-nous votre question, votre avis ou la description du problème — nous essaierons de le résoudre rapidement."
+hello_msg = "Bonjour ! Envoyez-nous votre question, votre avis ou la description du problème — nous essaierons de le résoudre rapidement. Merci d’utiliser des messages texte plutôt que des messages audio ou vocaux."
 first_reply = "Nous avons bien reçu votre message. Nous vous répondrons dès que possible. Merci de ne pas supprimer la conversation afin que nous puissions vous répondre."
 
 [fil]
-hello_msg = "Kumusta! Ipadala ang iyong tanong, feedback, o paglalarawan ng problema — susubukan naming ayusin ito sa lalong madaling panahon."
+hello_msg = "Kumusta! Ipadala ang iyong tanong, feedback, o paglalarawan ng problema — susubukan naming ayusin ito sa lalong madaling panahon. Mangyaring gumamit ng text message sa halip na audio o voice message."
 first_reply = "Natanggap namin ang iyong mensahe. Babalikan ka namin sa lalong madaling panahon. Huwag burahin ang chat para makapagpadala kami sa iyo ng sagot."
 
 [gu]
-hello_msg = "નમસ્તે! તમારો પ્રશ્ન, પ્રતિસાદ અથવા સમસ્યાનું વર્ણન મોકલો — અમે તેને જલદી ઉકેલવાનો પ્રયાસ કરીશું."
+hello_msg = "નમસ્તે! તમારો પ્રશ્ન, પ્રતિસાદ અથવા સમસ્યાનું વર્ણન મોકલો — અમે તેને જલદી ઉકેલવાનો પ્રયાસ કરીશું. કૃપા કરીને ઑડિયો અથવા વૉઇસ મેસેજને બદલે ટેક્સ્ટ મેસેજનો ઉપયોગ કરો."
 first_reply = "અમને તમારો સંદેશ મળી ગયો છે. અમે શક્ય તેટલી વહેલી તકે તમને જવાબ આપીશું. કૃપા કરીને ચેટ કાઢી ન નાખો, જેથી અમે તમને જવાબ મોકલી શકીએ."
 
 [ha]
-hello_msg = "Sannu! Aika tambayarka, ra'ayinka, ko bayanin matsalar — za mu yi kokarin warware ta ba da jimawa ba."
+hello_msg = "Sannu! Aika tambayarka, ra'ayinka, ko bayanin matsalar — za mu yi kokarin warware ta ba da jimawa ba. Don Allah ka yi amfani da saƙonnin rubutu maimakon saƙonnin sauti ko na murya."
 first_reply = "Mun karbi sakonka. Za mu tuntube ka da wuri-wuri. Don Allah kada ka goge hirar domin mu iya aiko maka da amsa."
 
 [he]
-hello_msg = "שלום! שלחו שאלה, משוב או תיאור של הבעיה — נשתדל לפתור זאת בקרוב."
+hello_msg = "שלום! שלחו שאלה, משוב או תיאור של הבעיה — נשתדל לפתור זאת בקרוב. אנא השתמשו בהודעות טקסט במקום הודעות אודיו או הודעות קוליות."
 first_reply = "קיבלנו את ההודעה שלכם. נחזור אליכם בהקדם האפשרי. נא לא למחוק את הצ'אט כדי שנוכל לשלוח לכם תשובה."
 
 [hi]
-hello_msg = "नमस्ते! अपना सवाल, प्रतिक्रिया या समस्या का विवरण भेजें — हम इसे जल्द हल करने की कोशिश करेंगे."
+hello_msg = "नमस्ते! अपना सवाल, प्रतिक्रिया या समस्या का विवरण भेजें — हम इसे जल्द हल करने की कोशिश करेंगे. कृपया ऑडियो या वॉइस मैसेज के बजाय टेक्स्ट मैसेज भेजें।"
 first_reply = "हमें आपका संदेश मिल गया है। हम जल्द से जल्द आपसे संपर्क करेंगे। कृपया चैट डिलीट न करें, ताकि हम आपको जवाब भेज सकें."
 
 [hr]
-hello_msg = "Pozdrav! Pošaljite pitanje, povratnu informaciju ili opis problema — potrudit ćemo se to uskoro riješiti."
+hello_msg = "Pozdrav! Pošaljite pitanje, povratnu informaciju ili opis problema — potrudit ćemo se to uskoro riješiti. Molimo koristite tekstualne poruke umjesto audio ili glasovnih poruka."
 first_reply = "Primili smo vašu poruku. Javit ćemo vam se čim prije. Nemojte izbrisati chat kako bismo vam mogli poslati odgovor."
 
 [hy]
-hello_msg = "Բարև։ Ուղարկեք ձեր հարցը, կարծիքը կամ խնդրի նկարագրությունը — կփորձենք շուտով լուծել այն։"
+hello_msg = "Բարև։ Ուղարկեք ձեր հարցը, կարծիքը կամ խնդրի նկարագրությունը — կփորձենք շուտով լուծել այն։ Խնդրում ենք օգտագործել տեքստային հաղորդագրություններ՝ աուդիո կամ ձայնային հաղորդագրությունների փոխարեն։"
 first_reply = "Մենք ստացել ենք ձեր հաղորդագրությունը։ Կպատասխանենք որքան հնարավոր է շուտ։ Խնդրում ենք չջնջել զրույցը, որպեսզի կարողանանք ձեզ պատասխան ուղարկել։"
 
 [hu]
-hello_msg = "Üdvözöljük! Küldje el kérdését, visszajelzését vagy a probléma leírását — igyekszünk hamar megoldani."
+hello_msg = "Üdvözöljük! Küldje el kérdését, visszajelzését vagy a probléma leírását — igyekszünk hamar megoldani. Kérjük, hang- vagy audiouzenetek helyett szöveges üzeneteket használjon."
 first_reply = "Megkaptuk az üzenetét. A lehető leghamarabb válaszolunk. Kérjük, ne törölje a csevegést, hogy el tudjuk küldeni a választ."
 
 [ig]
-hello_msg = "Ndewo! Ziga ajụjụ gị, nzaghachi gị, ma ọ bụ nkọwa nsogbu ahụ — anyị ga-agbalị idozi ya n'oge na-adịghị anya."
+hello_msg = "Ndewo! Ziga ajụjụ gị, nzaghachi gị, ma ọ bụ nkọwa nsogbu ahụ — anyị ga-agbalị idozi ya n'oge na-adịghị anya. Biko jiri ozi ederede kama ozi audio ma ọ bụ ozi olu."
 first_reply = "Anyị anatala ozi gị. Anyị ga-aza gị ozugbo o kwere omume. Biko ehichapụla mkparịta ụka ahụ ka anyị nwee ike izitere gị azịza."
 
 [is]
-hello_msg = "Halló! Sendu okkur spurningu, ábendingu eða lýsingu á vandamálinu — við reynum að leysa það fljótlega."
+hello_msg = "Halló! Sendu okkur spurningu, ábendingu eða lýsingu á vandamálinu — við reynum að leysa það fljótlega. Vinsamlegast notaðu textaskilaboð í stað hljóð- eða raddskilaboða."
 first_reply = "Við höfum móttekið skilaboðin þín. Við svörum þér eins fljótt og auðið er. Vinsamlegast ekki eyða spjallinu svo við getum sent þér svar."
 
 [ga]
-hello_msg = "Dia dhuit! Seol do cheist, aiseolas nó cur síos ar an bhfadhb — déanfaimid iarracht é a réiteach go luath."
+hello_msg = "Dia dhuit! Seol do cheist, aiseolas nó cur síos ar an bhfadhb — déanfaimid iarracht é a réiteach go luath. Úsáid teachtaireachtaí téacs le do thoil in ionad teachtaireachtaí fuaime nó gutha."
 first_reply = "Tá do theachtaireacht faighte againn. Rachaimid i dteagmháil leat chomh luath agus is féidir. Ná scrios an comhrá, le do thoil, ionas gur féidir linn freagra a sheoladh chugat."
 
 [it]
-hello_msg = "Ciao! Inviaci la tua domanda, il tuo feedback o la descrizione del problema — cercheremo di risolverlo presto."
+hello_msg = "Ciao! Inviaci la tua domanda, il tuo feedback o la descrizione del problema — cercheremo di risolverlo presto. Per favore usa messaggi di testo invece di messaggi audio o vocali."
 first_reply = "Abbiamo ricevuto il tuo messaggio. Ti risponderemo il prima possibile. Non eliminare la chat, così potremo inviarti una risposta."
 
 [kk]
-hello_msg = "Сәлеметсіз бе! Сұрағыңызды, пікіріңізді немесе мәселенің сипаттамасын жіберіңіз — оны жақын арада шешуге тырысамыз."
+hello_msg = "Сәлеметсіз бе! Сұрағыңызды, пікіріңізді немесе мәселенің сипаттамасын жіберіңіз — оны жақын арада шешуге тырысамыз. Аудио немесе дауыстық хабарламалардың орнына мәтіндік хабарламалар жіберіңіз."
 first_reply = "Хабарламаңызды алдық. Сізге мүмкіндігінше тез жауап береміз. Жауап жібере алуымыз үшін чатты өшірмеңіз."
 
 [kn]
-hello_msg = "ನಮಸ್ಕಾರ! ನಿಮ್ಮ ಪ್ರಶ್ನೆ, ಪ್ರತಿಕ್ರಿಯೆ ಅಥವಾ ಸಮಸ್ಯೆಯ ವಿವರಣೆಯನ್ನು ಕಳುಹಿಸಿ — ಅದನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪರಿಹರಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತೇವೆ."
+hello_msg = "ನಮಸ್ಕಾರ! ನಿಮ್ಮ ಪ್ರಶ್ನೆ, ಪ್ರತಿಕ್ರಿಯೆ ಅಥವಾ ಸಮಸ್ಯೆಯ ವಿವರಣೆಯನ್ನು ಕಳುಹಿಸಿ — ಅದನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಪರಿಹರಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತೇವೆ. ದಯವಿಟ್ಟು ಆಡಿಯೋ ಅಥವಾ ಧ್ವನಿ ಸಂದೇಶಗಳ ಬದಲು ಪಠ್ಯ ಸಂದೇಶಗಳನ್ನು ಬಳಸಿ."
 first_reply = "ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ನಾವು ಸ್ವೀಕರಿಸಿದ್ದೇವೆ. ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತೇವೆ. ನಿಮಗೆ ಉತ್ತರ ಕಳುಹಿಸಲು ಸಾಧ್ಯವಾಗಲು ದಯವಿಟ್ಟು ಚಾಟ್ ಅಳಿಸಬೇಡಿ."
 
 [ky]
-hello_msg = "Салам! Сурооңузду, пикириңизди же көйгөйдүн сүрөттөмөсүн жөнөтүңүз — аны жакында чечүүгө аракет кылабыз."
+hello_msg = "Салам! Сурооңузду, пикириңизди же көйгөйдүн сүрөттөмөсүн жөнөтүңүз — аны жакында чечүүгө аракет кылабыз. Аудио же үн билдирүүлөрдүн ордуна текст билдирүүлөрүн колдонуңуз."
 first_reply = "Билдирүүңүздү алдык. Сизге мүмкүн болушунча тез жооп беребиз. Жооп жөнөтө алышыбыз үчүн чатты өчүрбөңүз."
 
 [lb]
-hello_msg = "Moien! Schéck eis deng Fro, däi Feedback oder eng Beschreiwung vum Problem — mir probéieren et geschwënn ze léisen."
+hello_msg = "Moien! Schéck eis deng Fro, däi Feedback oder eng Beschreiwung vum Problem — mir probéieren et geschwënn ze léisen. Benotz w.e.g. Textnoriichten amplaz Audio- oder Stëmmnoriichten."
 first_reply = "Mir hunn deng Noriicht kritt. Mir mellen eis esou séier wéi méiglech zeréck. Läscht w.e.g. de Chat net, fir datt mir dir eng Äntwert schécke kënnen."
 
 [lt]
-hello_msg = "Sveiki! Atsiųskite klausimą, atsiliepimą arba problemos aprašymą — pasistengsime tai greitai išspręsti."
+hello_msg = "Sveiki! Atsiųskite klausimą, atsiliepimą arba problemos aprašymą — pasistengsime tai greitai išspręsti. Prašome naudoti tekstines žinutes vietoje garso ar balso pranešimų."
 first_reply = "Gavome jūsų žinutę. Susisieksime su jumis kaip įmanoma greičiau. Prašome neištrinti pokalbio, kad galėtume atsiųsti jums atsakymą."
 
 [lv]
-hello_msg = "Sveiki! Nosūtiet savu jautājumu, atsauksmi vai problēmas aprakstu — centīsimies to drīz atrisināt."
+hello_msg = "Sveiki! Nosūtiet savu jautājumu, atsauksmi vai problēmas aprakstu — centīsimies to drīz atrisināt. Lūdzu, izmantojiet teksta ziņas, nevis audio vai balss ziņas."
 first_reply = "Mēs saņēmām jūsu ziņojumu. Atbildēsim jums, cik drīz vien iespējams. Lūdzu, neizdzēsiet čatu, lai mēs varētu nosūtīt jums atbildi."
 
 [ml]
-hello_msg = "ഹലോ! നിങ്ങളുടെ ചോദ്യം, അഭിപ്രായം അല്ലെങ്കിൽ പ്രശ്നത്തിന്റെ വിവരണം അയയ്ക്കൂ — അത് ഉടൻ പരിഹരിക്കാൻ ഞങ്ങൾ ശ്രമിക്കും."
+hello_msg = "ഹലോ! നിങ്ങളുടെ ചോദ്യം, അഭിപ്രായം അല്ലെങ്കിൽ പ്രശ്നത്തിന്റെ വിവരണം അയയ്ക്കൂ — അത് ഉടൻ പരിഹരിക്കാൻ ഞങ്ങൾ ശ്രമിക്കും. ദയവായി ഓഡിയോ അല്ലെങ്കിൽ വോയ്സ് സന്ദേശങ്ങൾക്ക് പകരം ടെക്സ്റ്റ് സന്ദേശങ്ങൾ ഉപയോഗിക്കുക."
 first_reply = "നിങ്ങളുടെ സന്ദേശം ഞങ്ങൾക്ക് ലഭിച്ചു. കഴിയുന്നത്ര വേഗത്തിൽ ഞങ്ങൾ മറുപടി നൽകും. നിങ്ങൾക്ക് മറുപടി അയയ്ക്കാൻ കഴിയുന്നതിനായി ദയവായി ചാറ്റ് ഇല്ലാതാക്കരുത്."
 
 [mk]
-hello_msg = "Здраво! Испратете прашање, повратна информација или опис на проблемот — ќе се обидеме да го решиме наскоро."
+hello_msg = "Здраво! Испратете прашање, повратна информација или опис на проблемот — ќе се обидеме да го решиме наскоро. Ве молиме користете текстуални пораки наместо аудио или гласовни пораки."
 first_reply = "Ја добивме вашата порака. Ќе ви одговориме што е можно поскоро. Ве молиме не го бришете разговорот за да можеме да ви испратиме одговор."
 
 [mr]
-hello_msg = "नमस्कार! तुमचा प्रश्न, अभिप्राय किंवा समस्येचे वर्णन पाठवा — आम्ही ते लवकर सोडवण्याचा प्रयत्न करू."
+hello_msg = "नमस्कार! तुमचा प्रश्न, अभिप्राय किंवा समस्येचे वर्णन पाठवा — आम्ही ते लवकर सोडवण्याचा प्रयत्न करू. कृपया ऑडिओ किंवा व्हॉइस मेसेजऐवजी टेक्स्ट मेसेज पाठवा."
 first_reply = "आम्हाला तुमचा संदेश मिळाला आहे. आम्ही शक्य तितक्या लवकर तुम्हाला उत्तर देऊ. कृपया चॅट हटवू नका, जेणेकरून आम्ही तुम्हाला उत्तर पाठवू शकू."
 
 [ms]
-hello_msg = "Hai! Hantar soalan, maklum balas atau penerangan masalah anda — kami akan cuba menyelesaikannya tidak lama lagi."
+hello_msg = "Hai! Hantar soalan, maklum balas atau penerangan masalah anda — kami akan cuba menyelesaikannya tidak lama lagi. Sila gunakan mesej teks dan bukannya mesej audio atau suara."
 first_reply = "Kami telah menerima mesej anda. Kami akan menghubungi anda secepat mungkin. Sila jangan padamkan sembang supaya kami boleh menghantar balasan kepada anda."
 
 [nl]
-hello_msg = "Hallo! Stuur ons je vraag, feedback of probleembeschrijving — we proberen het snel op te lossen."
+hello_msg = "Hallo! Stuur ons je vraag, feedback of probleembeschrijving — we proberen het snel op te lossen. Gebruik alstublieft tekstberichten in plaats van audio- of spraakberichten."
 first_reply = "We hebben je bericht ontvangen. We nemen zo snel mogelijk contact met je op. Verwijder de chat niet, zodat we je een antwoord kunnen sturen."
 
 [no]
-hello_msg = "Hei! Send oss spørsmålet ditt, tilbakemelding eller en beskrivelse av problemet — vi prøver å løse det snart."
+hello_msg = "Hei! Send oss spørsmålet ditt, tilbakemelding eller en beskrivelse av problemet — vi prøver å løse det snart. Bruk tekstmeldinger i stedet for lyd- eller talemeldinger."
 first_reply = "Vi har mottatt meldingen din. Vi svarer deg så snart vi kan. Ikke slett chatten, slik at vi kan sende deg et svar."
 
 [om]
-hello_msg = "Akkam! Gaaffii, yaada deebii, yookaan ibsa rakkoo keessanii nuuf ergaa — dhi soonatti hiikuuf ni yaalla."
+hello_msg = "Akkam! Gaaffii, yaada deebii, yookaan ibsa rakkoo keessanii nuuf ergaa — dhi soonatti hiikuuf ni yaalla. Maaloo ergaa sagalee yookaan audio irra ergaa barreeffamaa fayyadamaa."
 first_reply = "Ergaa keessan arganneerra. Hamma dandeenyetti dafnee deebina. Deebii isiniif erguu akka dandeenyuuf maaloo marii kana hin haqinaa."
 
 [pt]
-hello_msg = "Olá! Envie sua pergunta, feedback ou descrição do problema — tentaremos resolver em breve."
+hello_msg = "Olá! Envie sua pergunta, feedback ou descrição do problema — tentaremos resolver em breve. Por favor, use mensagens de texto em vez de mensagens de áudio ou de voz."
 first_reply = "Recebemos sua mensagem. Entraremos em contato assim que possível. Não exclua a conversa para que possamos enviar uma resposta."
 
 [pl]
-hello_msg = "Dzień dobry! Wyślij pytanie, opinię albo opis problemu — postaramy się wkrótce to rozwiązać."
+hello_msg = "Dzień dobry! Wyślij pytanie, opinię albo opis problemu — postaramy się wkrótce to rozwiązać. Prosimy używać wiadomości tekstowych zamiast wiadomości audio lub głosowych."
 first_reply = "Otrzymaliśmy Twoją wiadomość. Odpowiemy tak szybko, jak to możliwe. Nie usuwaj czatu, abyśmy mogli wysłać Ci odpowiedź."
 
 [pa]
-hello_msg = "ਸਤ ਸ੍ਰੀ ਅਕਾਲ! ਆਪਣਾ ਸਵਾਲ, ਫੀਡਬੈਕ ਜਾਂ ਸਮੱਸਿਆ ਦਾ ਵੇਰਵਾ ਭੇਜੋ — ਅਸੀਂ ਇਸਨੂੰ ਜਲਦੀ ਹੱਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਾਂਗੇ."
+hello_msg = "ਸਤ ਸ੍ਰੀ ਅਕਾਲ! ਆਪਣਾ ਸਵਾਲ, ਫੀਡਬੈਕ ਜਾਂ ਸਮੱਸਿਆ ਦਾ ਵੇਰਵਾ ਭੇਜੋ — ਅਸੀਂ ਇਸਨੂੰ ਜਲਦੀ ਹੱਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਾਂਗੇ. ਕਿਰਪਾ ਕਰਕੇ ਆਡੀਓ ਜਾਂ ਵੌਇਸ ਸੁਨੇਹਿਆਂ ਦੀ ਬਜਾਏ ਟੈਕਸਟ ਸੁਨੇਹੇ ਭੇਜੋ।"
 first_reply = "ਸਾਨੂੰ ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਮਿਲ ਗਿਆ ਹੈ। ਅਸੀਂ ਜਿੰਨੀ ਜਲਦੀ ਹੋ ਸਕੇ ਤੁਹਾਨੂੰ ਜਵਾਬ ਦੇਵਾਂਗੇ। ਕਿਰਪਾ ਕਰਕੇ ਚੈਟ ਨਾ ਮਿਟਾਓ, ਤਾਂ ਜੋ ਅਸੀਂ ਤੁਹਾਨੂੰ ਜਵਾਬ ਭੇਜ ਸਕੀਏ."
 
 [ro]
-hello_msg = "Bună! Trimite-ne întrebarea, feedbackul sau descrierea problemei — vom încerca să o rezolvăm curând."
+hello_msg = "Bună! Trimite-ne întrebarea, feedbackul sau descrierea problemei — vom încerca să o rezolvăm curând. Te rugăm să folosești mesaje text în loc de mesaje audio sau vocale."
 first_reply = "Am primit mesajul tău. Îți vom răspunde cât mai curând posibil. Te rugăm să nu ștergi conversația, ca să îți putem trimite un răspuns."
 
 [ru]
-hello_msg = "Здравствуйте! Напишите ваш вопрос, отзыв или описание проблемы — постараемся решить её в ближайшее время."
+hello_msg = "Здравствуйте! Напишите ваш вопрос, отзыв или описание проблемы — постараемся решить её в ближайшее время. Пожалуйста, отправляйте текстовые сообщения вместо аудио или голосовых сообщений."
 first_reply = "Мы получили ваше сообщение. Мы ответим вам как можно скорее. Пожалуйста, не удаляйте чат, чтобы мы могли отправить вам ответ."
 
 [sk]
-hello_msg = "Dobrý deň! Pošlite nám otázku, spätnú väzbu alebo opis problému — pokúsime sa ho čoskoro vyriešiť."
+hello_msg = "Dobrý deň! Pošlite nám otázku, spätnú väzbu alebo opis problému — pokúsime sa ho čoskoro vyriešiť. Prosím používajte textové správy namiesto audio alebo hlasových správ."
 first_reply = "Dostali sme vašu správu. Ozveme sa vám čo najskôr. Prosím, nemažte chat, aby sme vám mohli poslať odpoveď."
 
 [sl]
-hello_msg = "Pozdravljeni! Pošljite vprašanje, povratno informacijo ali opis težave — potrudili se bomo, da jo kmalu rešimo."
+hello_msg = "Pozdravljeni! Pošljite vprašanje, povratno informacijo ali opis težave — potrudili se bomo, da jo kmalu rešimo. Prosimo, uporabljajte besedilna sporočila namesto zvočnih ali glasovnih sporočil."
 first_reply = "Prejeli smo vaše sporočilo. Odgovorili vam bomo takoj, ko bo mogoče. Prosimo, ne izbrišite klepeta, da vam bomo lahko poslali odgovor."
 
 [sr]
-hello_msg = "Здраво! Пошаљите питање, повратну информацију или опис проблема — потрудићемо се да га ускоро решимо."
+hello_msg = "Здраво! Пошаљите питање, повратну информацију или опис проблема — потрудићемо се да га ускоро решимо. Молимо вас да користите текстуалне поруке уместо аудио или гласовних порука."
 first_reply = "Примили смо вашу поруку. Одговорићемо вам што је пре могуће. Молимо вас да не бришете чет како бисмо могли да вам пошаљемо одговор."
 
 [sv]
-hello_msg = "Hej! Skicka din fråga, feedback eller problembeskrivning — vi försöker lösa det snart."
+hello_msg = "Hej! Skicka din fråga, feedback eller problembeskrivning — vi försöker lösa det snart. Använd gärna textmeddelanden i stället för ljud- eller röstmeddelanden."
 first_reply = "Vi har tagit emot ditt meddelande. Vi återkommer till dig så snart vi kan. Radera inte chatten så att vi kan skicka ett svar till dig."
 
 [ta]
-hello_msg = "வணக்கம்! உங்கள் கேள்வி, கருத்து அல்லது பிரச்சினையின் விளக்கத்தை அனுப்புங்கள் — அதை விரைவில் தீர்க்க முயற்சிப்போம்."
+hello_msg = "வணக்கம்! உங்கள் கேள்வி, கருத்து அல்லது பிரச்சினையின் விளக்கத்தை அனுப்புங்கள் — அதை விரைவில் தீர்க்க முயற்சிப்போம். தயவுசெய்து ஆடியோ அல்லது குரல் செய்திகளுக்குப் பதிலாக உரைச் செய்திகளைப் பயன்படுத்துங்கள்."
 first_reply = "உங்கள் செய்தியை பெற்றுள்ளோம். முடிந்தவரை விரைவில் உங்களைத் தொடர்புகொள்வோம். பதில் அனுப்ப முடியும் வகையில் தயவுசெய்து உரையாடலை நீக்க வேண்டாம்."
 
 [te]
-hello_msg = "నమస్తే! మీ ప్రశ్న, అభిప్రాయం లేదా సమస్య వివరణను పంపండి — దాన్ని త్వరలో పరిష్కరించడానికి ప్రయత్నిస్తాము."
+hello_msg = "నమస్తే! మీ ప్రశ్న, అభిప్రాయం లేదా సమస్య వివరణను పంపండి — దాన్ని త్వరలో పరిష్కరించడానికి ప్రయత్నిస్తాము. దయచేసి ఆడియో లేదా వాయిస్ సందేశాల బదులుగా టెక్స్ట్ సందేశాలను ఉపయోగించండి."
 first_reply = "మీ సందేశం మాకు అందింది. వీలైనంత త్వరగా మీకు సమాధానం ఇస్తాము. మీకు ప్రత్యుత్తరం పంపడానికి వీలుగా దయచేసి చాట్‌ను తొలగించవద్దు."
 
 [tg]
-hello_msg = "Салом! Савол, фикру мулоҳиза ё тавсифи мушкили худро фиристед — кӯшиш мекунем онро ба зудӣ ҳал кунем."
+hello_msg = "Салом! Савол, фикру мулоҳиза ё тавсифи мушкили худро фиристед — кӯшиш мекунем онро ба зудӣ ҳал кунем. Лутфан ба ҷои паёмҳои аудиоӣ ё овозӣ паёмҳои матнӣ фиристед."
 first_reply = "Паёми шуморо гирифтем. Ҳарчи зудтар ба шумо ҷавоб медиҳем. Лутфан чатро нест накунед, то тавонем ба шумо ҷавоб фиристем."
 
 [ti]
-hello_msg = "ሰላም! ሕቶኹም፣ ርእይቶኹም ወይ መግለጺ ጸገምኩም ስደዱልና — ቀልጢፍና ክንፈትሖ ክንፍትን ኢና."
+hello_msg = "ሰላም! ሕቶኹም፣ ርእይቶኹም ወይ መግለጺ ጸገምኩም ስደዱልና — ቀልጢፍና ክንፈትሖ ክንፍትን ኢና. በጃኹም ኣብ ክንዲ ናይ ኦዲዮ ወይ ናይ ድምጺ መልእኽቲ፣ ናይ ጽሑፍ መልእኽቲ ተጠቐሙ።"
 first_reply = "መልእኽትኹም ተቐቢልናዮ ኣለና። ብዝተኻእለ ቅልጡፍ መልሲ ክንህበኩም ኢና። መልሲ ክንሰደልኩም ክንክእል በጃኹም ነቲ ዝርርብ ኣይትደምስሱ."
 
 [tl]
-hello_msg = "Kumusta! Ipadala ang iyong tanong, feedback, o paglalarawan ng problema — susubukan naming ayusin ito sa lalong madaling panahon."
+hello_msg = "Kumusta! Ipadala ang iyong tanong, feedback, o paglalarawan ng problema — susubukan naming ayusin ito sa lalong madaling panahon. Mangyaring gumamit ng text message sa halip na audio o voice message."
 first_reply = "Natanggap namin ang iyong mensahe. Babalikan ka namin sa lalong madaling panahon. Huwag burahin ang chat para makapagpadala kami sa iyo ng sagot."
 
 [tr]
-hello_msg = "Merhaba! Sorunuzu, geri bildiriminizi veya sorun açıklamanızı gönderin — yakında çözmeye çalışacağız."
+hello_msg = "Merhaba! Sorunuzu, geri bildiriminizi veya sorun açıklamanızı gönderin — yakında çözmeye çalışacağız. Lütfen sesli veya audio mesajlar yerine yazılı mesaj kullanın."
 first_reply = "Mesajınızı aldık. Size mümkün olan en kısa sürede geri döneceğiz. Size yanıt gönderebilmemiz için lütfen sohbeti silmeyin."
 
 [uk]
-hello_msg = "Вітаємо! Напишіть ваше питання, відгук або опис проблеми — постараємося вирішити її найближчим часом."
+hello_msg = "Вітаємо! Напишіть ваше питання, відгук або опис проблеми — постараємося вирішити її найближчим часом. Будь ласка, надсилайте текстові повідомлення замість аудіо або голосових повідомлень."
 first_reply = "Ми отримали ваше повідомлення. Ми відповімо вам якнайшвидше. Будь ласка, не видаляйте чат, щоб ми могли надіслати вам відповідь."
 
 [ur]
-hello_msg = "ہیلو! اپنا سوال، رائے یا مسئلے کی تفصیل بھیجیں — ہم اسے جلد حل کرنے کی کوشش کریں گے۔"
+hello_msg = "ہیلو! اپنا سوال، رائے یا مسئلے کی تفصیل بھیجیں — ہم اسے جلد حل کرنے کی کوشش کریں گے۔ براہ کرم آڈیو یا وائس میسجز کے بجائے ٹیکسٹ میسجز استعمال کریں۔"
 first_reply = "ہمیں آپ کا پیغام موصول ہو گیا ہے۔ ہم جلد از جلد آپ سے رابطہ کریں گے۔ براہ کرم چیٹ حذف نہ کریں تاکہ ہم آپ کو جواب بھیج سکیں۔"
 
 [uz]
-hello_msg = "Salom! Savolingiz, fikr-mulohazangiz yoki muammo tavsifini yuboring — uni tez orada hal qilishga harakat qilamiz."
+hello_msg = "Salom! Savolingiz, fikr-mulohazangiz yoki muammo tavsifini yuboring — uni tez orada hal qilishga harakat qilamiz. Iltimos, audio yoki ovozli xabarlar o‘rniga matnli xabarlar yuboring."
 first_reply = "Xabaringizni oldik. Sizga imkon qadar tezroq javob beramiz. Javob yubora olishimiz uchun chatni o'chirmang."
 
 [vi]
-hello_msg = "Xin chào! Hãy gửi câu hỏi, phản hồi hoặc mô tả vấn đề của bạn — chúng tôi sẽ cố gắng giải quyết sớm."
+hello_msg = "Xin chào! Hãy gửi câu hỏi, phản hồi hoặc mô tả vấn đề của bạn — chúng tôi sẽ cố gắng giải quyết sớm. Vui lòng dùng tin nhắn văn bản thay vì tin nhắn âm thanh hoặc tin nhắn thoại."
 first_reply = "Chúng tôi đã nhận được tin nhắn của bạn. Chúng tôi sẽ phản hồi sớm nhất có thể. Vui lòng không xóa cuộc trò chuyện để chúng tôi có thể gửi câu trả lời cho bạn."
 
 [yo]
-hello_msg = "Bawo! Fi ibeere, esi, tabi apejuwe iṣoro rẹ ranṣẹ — a o gbiyanju lati yanju rẹ laipẹ."
+hello_msg = "Bawo! Fi ibeere, esi, tabi apejuwe iṣoro rẹ ranṣẹ — a o gbiyanju lati yanju rẹ laipẹ. Jọwọ lo ifiranṣẹ ọrọ dipo ifiranṣẹ ohun tabi ifiranṣẹ ohùn."
 first_reply = "A ti gba ifiranṣẹ rẹ. A o kan si ọ ni kete bi a ti le ṣe. Jọwọ maṣe pa iwiregbe naa rẹ ki a le fi idahun ranṣẹ si ọ."
 
 [zh]
-hello_msg = "你好！请发送你的问题、反馈或问题描述 — 我们会尽快尝试解决。"
+hello_msg = "你好！请发送你的问题、反馈或问题描述 — 我们会尽快尝试解决。 请使用文字消息，不要发送音频或语音消息。"
 first_reply = "我们已收到你的消息。我们会尽快回复你。请不要删除聊天，以便我们向你发送回复。"
